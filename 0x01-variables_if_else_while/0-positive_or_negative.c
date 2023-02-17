@@ -16,16 +16,16 @@ int n;
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("\n is positive: %d", n);
+		printf("%d is positive\n", n);
 	}
 	if (n < 0)
 	{
-		printf("\n is negative:%d", n);
+		printf("%d is negative\n", n);
+	}	
 	if (n==0);
-	}
+	
 	{
-		printf("\n is zero\n:%d", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
-	
 }
